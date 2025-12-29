@@ -1,0 +1,106 @@
+@charset "UTF-8 ";
+
+/* MOBILE FIRST  */
+
+:root{
+    --roxo: #5F2C82;
+    --azulclaro: #94CFCD;
+    --verde: #53AAA7;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--roxo);
+}
+
+main{
+    background-color: white;
+    width: 260px;
+    border-radius: 16px;
+    margin: auto;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.479);
+}
+
+/* MEXER AQUI */
+#imagem{
+    background-color: black;
+    background: black url(../imagens/metal.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 80%;
+}
+
+main>section{
+    padding: 10px;
+}
+
+main>section>h1{
+    text-align: center;
+    margin: 0;
+}
+
+main>section>p{
+    font-size: 0.8em;
+}
+
+/* INPUT */
+div.info{
+    background-color: var(--roxo);
+    margin: 5px 0;
+    padding: 1px;
+    border-radius: 8px;
+}
+
+.material-icons{
+    color: white;
+    padding: 0 4px;
+    font-size: 1.2em;
+}
+
+#iemail, #isenha{
+    width: 82%;
+    background-color: var(--azulclaro);
+    border-radius: 8px;
+    border: 0px;
+    padding: 4px 4px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 35px;
+}
+
+#entrar{
+    display: block;
+    background-color: var(--verde);
+    border: 0px;
+    border-radius: 4px;
+    width: 240px;
+    height: 35px;
+    color: white;
+    margin: 5px 0;
+}
+
+#entrar:hover{
+    background-color: #336d6b;
+    cursor: pointer;
+}
+
+div a{
+    display: block;
+    border: 1px solid var(--verde);
+    border-radius: 4px;
+    width: 240px;
+    height: 35px;
+    color: #336d6b;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    background-color: var(--azulclaro);
+}
+
+#mail{
+    color: #336d6b;
+    font-size: 0.8em;
+    padding-top: 10px;
+}
