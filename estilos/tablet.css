@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* TABLET */
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    body{
+        height: 97vh;
+        background-image: linear-gradient(to bottom, #5F2C82, #53AAA7);
+    }
+    main{
+        min-width: 80vw;
+    }
+    section>div#imagem{
+        height: 280px;
+    }
+
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #central{
+        float: right;
+        width: 66%;
+    }
+    #iemail, #isenha{
+        width: 89.8%;
+    }
+    main > section p{
+        font-size: 1em;
+    }
+    section{
+        height: 100%;
+    }
+}
+@media screen and (min-width:1025px){
+    body{
+        height: 97vh;
+        background-image: linear-gradient(to bottom, #5F2C82, #53AAA7);
+    }
+    main{
+        min-width: 65vw;
+    }
+
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    #central{
+        float: left;
+        width: 44%;
+    }
+    #iemail, #isenha{
+        width: 86%;
+    }
+    main > section p{
+        font-size: 1em;
+    }
+    section>div#imagem{
+        height: 300px;
+    }
+}
